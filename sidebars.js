@@ -1,16 +1,30 @@
 module.exports = {
   docs: [
     {
+      type: 'doc',
+      id: 'index'
+    },
+    {
+      type: 'doc',
+      id: 'getting-started'
+    },
+    {
       type: 'category',
-      label: 'Docusaurus Tutorial',
+      label: 'The Add—Commit—Push Cycle',
       items: [
-        'getting-started',
-        'create-a-page',
-        'create-a-document',
-        'create-a-blog-post',
-        'markdown-features',
-        'thank-you',
+        'acp/add',
+        'acp/commit',
+        'acp/push',
+        'acp/pull'
       ],
     },
+    {
+      type: 'doc',
+      id: 'pull-requests'
+    },
+    {
+      type: 'doc',
+      id: 'issues'
+    }
   ],
 };

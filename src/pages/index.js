@@ -72,7 +72,7 @@ export default function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Get Started
+              2021 tutorial series
             </Link>
           </div>
         </div>
