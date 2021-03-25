@@ -33,7 +33,7 @@ module.exports = {
     },
     footer: {
       style: 'dark',
-      links: [
+      /*links: [
         {
           title: 'Docs',
           items: [
@@ -73,8 +73,8 @@ module.exports = {
             },
           ],
         },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Jackson Rakena`,
+      ],*/
+      copyright: `Git Good, At Git - copyright © ${new Date().getFullYear()} Jackson Rakena`,
     },
   },
   presets: [
