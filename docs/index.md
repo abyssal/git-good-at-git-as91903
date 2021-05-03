@@ -14,7 +14,7 @@ Hello world! Welcome to the **Git Good, At Git** tutorial series, your one-stop-
     <img style={{
         width: '64px',
         borderRadius: '5px'
-    }} src="https://i.imgur.com/DfzGiWP.png" />
+    }} src="https://i.imgur.com/N0TjAW5.jpg" />
     <br />
     <strong>Jackson Rakena</strong>
     <div style={{
