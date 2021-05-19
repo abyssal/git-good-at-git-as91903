@@ -1,0 +1,43 @@
+---
+title: Adding files
+---
+
+The **Add-Commit-Push** cycle is how we send updates about our code to the Git server.  
+
+When we change a file, we need to tell Git that the file has changed and that we want to add it to our list of changes (changelist).
+
+Say we edited a file called `hello.txt`, let's tell Git that we changed it:
+```
+git add hello.txt
+```
+Git will not respond with anything if it was successful.
+Now, if use the Git Status command, we can see the "status" of our added files:
+```
+git status
+```
+```
+jacksonrakena@Jacksons-MacBook-Air my-repo % git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   hello.txt
+
+```
+Git is telling us that we have added `hello.txt` to our changelist, and is awaiting
+us to "commit" our changes.
+
+When we commit, we are signing a bundle of changes off, grouping them together into a neat little package.
+
+A repository is just a chain of commits. We add files to a changelist, commit those files to a new commit, and
+upload the new commit to the remote server, which will add it to the commit chain.
+
+If you work with another person, your commits will be added to the chain, and so will theirs, when they make commits - and
+as such, a collaborative project is just a long chain of commits by various people.
+
+Here's a flowchart representing a commit chain:
+<img src="https://i.imgur.com/5sXlwpZ.png" />
+
+So let's make a commit!

@@ -57,11 +57,13 @@ export default function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Git Good`}
-      description="The best tutorials for the best version control system">
+      title={`Home`}
+      description="AS91903 Digital Media Outcome">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
+          <h1 className="hero__title" style={{
+              fontFamily: '-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;'
+          }}>{siteConfig.title}</h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
@@ -70,7 +72,7 @@ export default function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              2021 tutorial series
+              Go to tutorials
             </Link>
           </div>
         </div>

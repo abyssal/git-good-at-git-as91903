@@ -20,14 +20,8 @@ module.exports = {
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Tutorials - 2021',
+          label: 'Tutorials',
           position: 'left',
-        },
-        {to: 'blog', label: 'Development blog', position: 'left'},
-        {
-          href: 'https://github.com/abyssal/git-good-at-git-as91903',
-          label: 'GitHub',
-          position: 'right',
         },
       ],
     },
@@ -74,7 +68,7 @@ module.exports = {
           ],
         },
       ],*/
-      copyright: `Git Good, At Git - copyright © ${new Date().getFullYear()} Jackson Rakena`,
+      copyright: `AS91903 "Git Good, At Git" - © ${new Date().getFullYear()} Jackson Rakena`,
     },
   },
   presets: [
@@ -83,15 +77,9 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          showReadingTime: true
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
